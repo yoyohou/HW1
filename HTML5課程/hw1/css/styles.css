@@ -1,0 +1,153 @@
+/*
+整體寬 960px
+Logo: http://i.imgur.com/pHyusTb.png
+登入小人: http://i.imgur.com/HxSb8GP.png
+選單 15px
+*/
+
+/*
+手機圖 http://i.imgur.com/DH1JUY1.png
+下陰影 http://i.imgur.com/qHFBqbU.png
+
+標題 40px
+內文 20px
+價錢 24px
+
+按鈕 128x33, #fe8511 -> #dc5608
+*/
+
+/*
+SD 卡：http://i.imgur.com/c2Z5au0.png
+電池：http://i.imgur.com/NFwOBqW.png
+耳機：http://i.imgur.com/stm47RT.png
+醜醜手機殼：http://i.imgur.com/aKkhCy6.png
+
+大字：40px
+大字框：70x185
+*/
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+header.bar{
+  margin: 50px auto;
+  font-family: 微軟正黑體;
+  position: relative;
+}
+
+h1{
+  float: left;
+}
+
+ul.bar{
+  float: left;
+  list-style-type: none;
+  margin-top: 3em;
+}
+
+li.bar{
+  float: left;
+  margin-left: 3em;
+}
+
+div.login{
+  float: right;
+  margin-top: 3em;
+  font-weight:600;
+  color:grey;
+}
+
+
+
+section.spec{
+	font-family: 微軟正黑體;
+	position: relative;
+	height: 700px;
+	margin: 50px auto 0px auto;
+	background: url(../images/shadow.png) center bottom no-repeat;
+	font-size:20px;
+}
+
+.phone{
+	position: absolute;
+	top:120px;
+	left:160px;
+	font-size:40px;
+}
+
+.desc{
+	position: absolute;
+	top:200px;
+	left:500px;
+}
+
+ul.spec{
+	list-style: none;
+	padding-left:0;
+	line-height: 1.3em;
+}
+
+.price{
+	font-size:24px;
+}
+
+button{
+
+	color:#fff;
+	padding:5px 35px;
+	border: 0;
+	border-radius:80px;
+	background-color: #bb5500;
+	background: #feccb1; /* Old browsers */
+	background: -moz-linear-gradient(top,  #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feccb1), color-stop(50%,#f17432), color-stop(51%,#ea5507), color-stop(100%,#fb955e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=0 ); /* IE6-9 */
+
+}
+
+/****************************************************/
+
+
+
+section.gift{
+	width:960px;
+	margin: 20 auto;
+	position: relative;
+}
+
+h3,ul, .cover{
+	display: inline-block;
+	vertical-align: top;
+}
+
+h3{
+	font-size: 40px;
+	width:1em;
+	border: #ccc 3px double;
+	padding: 40px 15px;
+	line-height: 1.3em;
+	margin:0;
+}
+
+figure{
+	border:1px #ccc solid;
+	padding: 8px 16px;
+	text-align: center;
+}
+
+ul.gift{
+	margin-right: 40px;
+	margin-top: 0px;
+	list-style: none;
+}
+
+p.foot{
+  clear: both;
+  text-align: center;
+}

@@ -1,0 +1,36 @@
+/*
+整體寬 960px
+Logo: http://i.imgur.com/pHyusTb.png
+登入小人: http://i.imgur.com/HxSb8GP.png
+選單 15px
+*/
+
+header{
+  width: 960px;
+  margin: 0 auto;
+  font-family: 微軟正黑體;
+}
+
+h1{
+  float: left;
+}
+
+ul{
+  float: left;
+  list-style-type: none;
+  margin-top: 3em;
+}
+
+li{
+  float: left;
+  margin-left: 3em;
+}
+
+div{
+  float: right;
+  margin-top: 3em;
+  font-weight:600;
+  color:grey;
+}
+
+

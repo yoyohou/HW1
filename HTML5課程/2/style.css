@@ -1,0 +1,65 @@
+
+/*
+手機圖 http://i.imgur.com/DH1JUY1.png
+下陰影 http://i.imgur.com/qHFBqbU.png
+
+標題 40px
+內文 20px
+價錢 24px
+
+按鈕 128x33, #fe8511 -> #dc5608
+*/
+
+section{
+	font-family: 微軟正黑體;
+	position: relative;
+	width:960px;
+	height: 600px;
+	margin: 50px auto;
+	background: url(http://i.imgur.com/qHFBqbU.png) center bottom no-repeat;
+	font-size:20px;
+}
+
+h2{
+	color: #FFC078;
+}
+.phone{
+	position: absolute;
+	top:0px;
+	left:160px;
+	font-size:40px;
+}
+
+.desc{
+	position: absolute;
+	top:80px;
+	left:500px;
+}
+
+ul{
+	list-style: none;
+	padding-left:0;
+	line-height: 1.3em;
+}
+
+.price{
+	font-size:24px;
+}
+
+button{
+
+	color:#fff;
+	padding:10px 40px;
+	border: 0;
+	border-radius:80px;
+	background-color: #bb5500;
+	background: #feccb1; /* Old browsers */
+	background: -moz-linear-gradient(top,  #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feccb1), color-stop(50%,#f17432), color-stop(51%,#ea5507), color-stop(100%,#fb955e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=0 ); /* IE6-9 */
+
+}
